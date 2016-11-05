@@ -3,7 +3,7 @@
 import urllib
 import json
 
-url = 'http://python-data.dr-chuck.net/comments_42.json'
+url = raw_input('Enter URL: ') #'http://python-data.dr-chuck.net/comments_42.json'
 
 link = urllib.urlopen(url)
 js = json.load(link)
